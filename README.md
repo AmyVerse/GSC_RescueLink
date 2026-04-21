@@ -1,16 +1,19 @@
-# rescuelink
+# RescueLink
 
-Rescue Link - Rapid Crisis Alert
+Private RescueLink project (not open source).
 
-## Getting Started
+## Overview
 
-This project is a starting point for a Flutter application.
+RescueLink is a Flutter app targeting **Web** and **Android**.
 
-A few resources to get you started if this is your first Flutter project:
+## Current state
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- UI shell / wireframe
+- Map screen (`/map`) with Google Maps
+- Requests location permission and displays current location
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tech
+
+- Flutter (Material 3)
+- `google_maps_flutter`
+- `geolocator`
